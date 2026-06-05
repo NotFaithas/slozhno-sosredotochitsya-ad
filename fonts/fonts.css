@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'IBM Plex mono';
-  src: url(./IBMPlexMono-Regular.woff) format('woff');
-  font-weight: normal;
+  src: local('IBM Plex Mono'), local('IBMPlexMono');
+  font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'IBM Plex mono';
-  src: url(./IBMPlexMono-Bold.woff) format('woff');
-  font-weight: bold;
+  src: local('IBM Plex Mono Bold'), local('IBMPlexMono-Bold');
+  font-weight: 700;
   font-display: swap;
 }

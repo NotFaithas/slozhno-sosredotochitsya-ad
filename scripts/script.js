@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeButtons = [
     ...document.querySelectorAll('.header__theme-menu-button'),
   ];
+
   setActiveButton(themeButtons, currentTheme);
 
   themeButtons.forEach((button) => {
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const chosenTheme = [...button.classList]
         .find((cn) => cn.includes('_type_'))
         .split('_type_')[1];
+
       setTheme(chosenTheme);
       setActiveButton(themeButtons, chosenTheme);
     });
@@ -36,9 +38,11 @@ function setActiveButton(buttonsArray, theme) {
     button.classList.remove('header__theme-menu-button_active');
     button.removeAttribute('disabled');
   });
+
   const target = buttonsArray.find((button) =>
     button.classList.contains(`header__theme-menu-button_type_${theme}`)
   );
+
   if (target) {
     target.classList.add('header__theme-menu-button_active');
     target.setAttribute('disabled', true);
