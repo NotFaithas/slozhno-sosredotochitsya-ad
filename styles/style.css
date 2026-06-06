@@ -3,7 +3,7 @@
   color: var(--text-color);
   font-family: var(--font-family);
   font-size: var(--main-font-size);
-  line-height: 1.3;
+  line-height: 23.4px;
   background-color: var(--page-bg-color);
   background-image: var(--page-bg-image);
   background-position: center;
@@ -94,7 +94,7 @@
   inset-block-start: var(--page-padding);
   inset-inline-end: calc(var(--page-padding) + 28px);
   color: var(--accent-color);
-  line-height: 25px;
+  line-height: 18px;
   text-transform: uppercase;
 }
 
@@ -113,8 +113,8 @@
 .title {
   color: var(--accent-title-color);
   font-weight: 700;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 0.825;
+  font-size: 116px;
+  line-height: 0.83;
   text-shadow: 4px 4px 0 var(--title-shadow-color);
 }
 
@@ -125,7 +125,7 @@
 .title-decor {
   color: var(--title-decor-text-color);
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 23.4px;
   background-color: var(--accent-color);
   margin-block-end: 20px;
 }
