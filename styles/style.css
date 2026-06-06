@@ -127,7 +127,7 @@
   font-weight: 700;
   line-height: 23.4px;
   background-color: var(--accent-color);
-  margin-block-end: 20px;
+  
 }
 
 .header__description {
@@ -150,6 +150,10 @@
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
+}
+
+.content-section__subtitle {
+    font-size: 18px;
 }
 
 .cards-list {
@@ -227,7 +231,11 @@
   }
 
   .title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: 120px;
+  }
+
+  .title-decor {
+    margin-block-end: 20px;
   }
 
   .header__title {
