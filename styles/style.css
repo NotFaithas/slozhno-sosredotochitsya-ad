@@ -127,7 +127,7 @@
   font-weight: 700;
   line-height: 23.4px;
   background-color: var(--accent-color);
-  
+  margin-block-end: 20px;
 }
 
 .header__description {
@@ -150,6 +150,7 @@
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
+  
 }
 
 .content-section__subtitle {
@@ -201,7 +202,7 @@
 .gallery__title {
   font-size: inherit;
   line-height: inherit;
-
+  margin: 0;
 }
 
 .gallery__image {
@@ -232,10 +233,6 @@
 
   .title {
     font-size: 120px;
-  }
-
-  .title-decor {
-    margin-block-end: 20px;
   }
 
   .header__title {
